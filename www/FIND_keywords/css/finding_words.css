@@ -1,0 +1,68 @@
+
+* {
+    box-sizing: border-box;
+}
+
+div.finding_words {
+    cursor: pointer;
+    margin: 3px 0 0;
+    border-width: 1px 2px 2px 1px;
+    border-style: solid;
+    border-color: #8D8D8D #4D4D4D #3E3E3E #8D8D8D;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #FFF;
+    background-color: #FFF;
+    box-shadow: 2px 2px 2px 1px #4D4D4D;
+    border-radius: 9px;
+    display: inline-block;
+}
+
+div.finding_words > div {
+    margin: 0;
+    width: 150px;
+    height: 60px;
+    padding: 0 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white #594443 #593434 white;
+    border-image: none;
+    box-shadow: 4px 3px 15px -3px rgba(253, 176, 63, 0.36) inset;
+    background: linear-gradient(to bottom, rgba(103, 229, 139, 0.83) 0%, rgba(95, 232, 92, 0.82) 34%, rgba(76, 226, 71, 0.82) 49%, rgba(56, 219, 48, 0.88) 63%, #3DAF1D 100%) repeat scroll 0% 0% transparent;
+}
+
+div.finding_words > div.string_find {
+    background: linear-gradient(to bottom, #E6F0A3 0%, #DAE08B 33%, #C5D358 49%, #C8DD2A 66%, #A2EA44 100%) repeat scroll 0% 0% transparent;
+}
+
+div.finding_words > div > div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table;
+}
+
+
+div.finding_words > div.string_find > div > div {
+    color: #13B01A;
+    text-shadow: 0 0 0 #2B9501, 1px 1px 0 #147E00, 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+div.finding_words > div > div > div, div.finding_words > div > div > a {
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial;
+    line-height: 120%;
+    font-weight: bold;
+    color: #FBFFEC;
+    font-size: 14px;
+    text-shadow: 0 0 0 #E0E0E0, 1px 1px 0 #CFCFCF, 2px 2px 0 #BDBDBD, 3px 3px 0 #ABABAB, 4px 4px 3px rgba(0, 0, 0, 0.65), 4px 4px 1px rgba(0, 0, 0, 0.5), 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.finding_words-border-radius-8px {
+    border-radius: 8px;
+}
